@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(240, 229, 229);
+  margin: 0;
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div.title {
+  color: white;
+  font-family: Arial;
+  font-size: 32px;
+  margin-left: 150px;
+  margin-top: 70px;
+}
+
+#my-photo {
+  border-radius: 150px;
+  height: 80%;
+  max-width: 62%;
+  margin-left: 200px;
+}
+
+#ccp, #ssa {
+  width: 20%; 
+  max-width: 50px"
+}
+
+.split {
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  overflow-x: visible;
+  padding-top: 200px;
+}
+
+.certification {
+  width: 560px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+/* Page content. Settings for different sections */
+ div.certification {
+    margin-left: 500px;
+    margin-top: 0px;
+    padding: 1px 125px;
+    height: 50px;
+    font-family: Arial;
+    font-size: 32px;   
+  }
+  
+  #linkedin, #dev, #github {
+    width: 7%; 
+    max-width: 20px"
+    
+  } 
