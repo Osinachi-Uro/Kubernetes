@@ -15,5 +15,5 @@ To copy files from local computer to a virtual server, use:
 ```
 scr -r Folder or File name or Path user@IPaddress:/path/to/save/copied/files
 ```
-Example shown below:
+Example shown here:
 <img width="742" alt="Capture 1" src="https://user-images.githubusercontent.com/83463641/221871598-ecc9d87f-2a29-4397-b10f-873da82076b8.PNG">
