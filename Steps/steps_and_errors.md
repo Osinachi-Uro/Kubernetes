@@ -1,3 +1,8 @@
+## STEPS
+
+
+## ERRORS & SOLUTIONS
+
 ### Error 1
 <img width="951" alt="Capture 1" src="https://user-images.githubusercontent.com/83463641/222446654-98fc98aa-e502-4cb1-aedb-3bc7d96d6499.PNG">
 
@@ -10,7 +15,5 @@ Open /etc/resolv.conf, ```sudo nano /etc/resolv.conf```  Then replace the IP add
 #### Solution 2
 Systemd is typically not installed on most docker images by default. So, instead of using systemd, use service. So, replace the systemctl command with 
 ``` service nginx restart ```
-
-
 
 ### Error 3
