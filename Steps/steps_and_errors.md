@@ -1,5 +1,8 @@
 ## STEPS
 
+1. Designed my simple website using HTML and CSS and pushed the files to my github repository
+2. Created a Dockerfile FROM nginx to deploy my website image to DockerHub 
+3. 
 
 ## ERRORS & SOLUTIONS
 
@@ -16,4 +19,9 @@ Open /etc/resolv.conf, ```sudo nano /etc/resolv.conf```  Then replace the IP add
 Systemd is typically not installed on most docker images by default. So, instead of using systemd, use service. So, replace the systemctl command with 
 ``` service nginx restart ```
 
-### Error 3
+
+### Helpful Links:
+
+https://www.baeldung.com/linux/nginx-docker-container
+
+https://jgefroh.medium.com/a-guide-to-using-nginx-for-static-websites-d96a9d034940
