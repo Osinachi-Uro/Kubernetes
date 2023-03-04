@@ -2,7 +2,11 @@
 
 1. Designed my simple website using HTML and CSS and pushed the files to my github repository
 2. Created a Dockerfile FROM nginx to deploy my website image to DockerHub 
-3. 
+3.Dockerfile content 
+```
+
+```
+5. Run docker build ``` sudo docker build -t nachsdocker/web-page:1.0 . ```
 
 ## ERRORS & SOLUTIONS
 
