@@ -3,8 +3,34 @@
 1. Designed my simple website using HTML and CSS and pushed the files to my github repository
 2. Created a Dockerfile FROM nginx to deploy my website image to DockerHub.
 
-3. Dockerfile content Option 1 that didn't work
+3. Dockerfile content Option 1 that didn't work (plan to fix it)
 ```
+FROM nginx
+
+EXPOSE 80/tcp
+
+#--------------
+# Install nginx
+#--------------
+
+# RUN apt -y update && apt -y install nginx
+
+#------------------------------------------------------------------
+# Clone my website file repo and move files to the container server
+#------------------------------------------------------------------
+
+RUN apt-get update -y && apt-get install git -y
+RUN git clone https://github.com/Osinachi-Uro/Kubernetes.git /var/www/html/K8task
+
+#------------------------------------------
+#Create the Nginx Configuration File
+#------------------------------------------
+
+COPY nginx.conf /etc/nginx/sites-available/
+#RUN ln -s /etc/nginx/sites-available/nginx.conf /etc/nginx/sites-enabled/nginx.conf
+
+# Enable the new configuration file
+RUN service nginx restart
 
 ```
 4. Dockerfile content Option 2 that worked
