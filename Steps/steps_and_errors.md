@@ -1,8 +1,9 @@
 ## STEPS
 
 1. Designed my simple website using HTML and CSS and pushed the files to my github repository
-2. Created a Dockerfile FROM nginx to deploy my website image to DockerHub 
-3.Dockerfile content 
+2. Created a Dockerfile FROM nginx to deploy my website image to DockerHub.
+
+3. Dockerfile content 
 ```
 
 ```
