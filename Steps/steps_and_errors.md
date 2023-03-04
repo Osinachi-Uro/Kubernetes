@@ -9,6 +9,9 @@
 ```
 5. Run docker build ``` sudo docker build -t nachsdocker/web-page:1.0 . ```
 
+<img width="910" alt="Capture 4" src="https://user-images.githubusercontent.com/83463641/222896827-68df71e5-4cf1-48c7-9bbf-3c7678c14d2d.PNG">
+
+
 ## ERRORS & SOLUTIONS
 
 ### Error 1
