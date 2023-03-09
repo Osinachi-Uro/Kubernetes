@@ -2,7 +2,6 @@
 
 1. Designed my simple website using HTML and CSS and pushed the files to my github repository
 2. Created a Dockerfile FROM nginx to deploy my website image to DockerHub.
-
 3. Dockerfile content Option 1 that didn't work (plan to fix it)
 ```
 FROM nginx
@@ -46,14 +45,16 @@ WORKDIR /usr/share/nginx/html
 5. Run docker build ``` sudo docker build -t nachsdocker/web-page:1.0 . ```
 <img width="815" alt="Capture 2" src="https://user-images.githubusercontent.com/83463641/222902895-0f33f3e6-9e9b-4929-a7f1-995c11f7407d.PNG">
 
-
 6. Docker run
 
 <img width="910" alt="Capture 4" src="https://user-images.githubusercontent.com/83463641/222896827-68df71e5-4cf1-48c7-9bbf-3c7678c14d2d.PNG">
 
+
 7. From GCP Cloud shell
 
 <img width="950" alt="Capture 1" src="https://user-images.githubusercontent.com/83463641/222902513-c5d98597-c17e-42b8-9bfd-eb7d3d07c73f.PNG">
+
+
 
 ## ERRORS & SOLUTIONS
 
