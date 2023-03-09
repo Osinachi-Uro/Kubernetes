@@ -54,7 +54,11 @@ Image successfully created in Docker Hub
 <img width="637" alt="Capture 1" src="https://user-images.githubusercontent.com/83463641/223969827-e0d300ab-6d30-41ba-b93d-f47cd39d8f41.PNG">
 
 
-7. Go to GCP and create a Kubernetes cluster, remember to select 2 nodes as GCP creates 3 nodes by default. THe cluster takes a while to create. When it is done connect to it and the page below will show.
+7. Go to GCP and create a Kubernetes cluster, remember to select 2 nodes as GCP creates 3 nodes by default. The cluster takes a while to create. 
+
+<img width="942" alt="Capture 1" src="https://user-images.githubusercontent.com/83463641/223978952-c3e4abab-48d9-4bbb-adc5-c75cee9125c8.PNG">
+
+8. When it is done connect to it and the page below will show.
  
 <img width="950" alt="Capture 1" src="https://user-images.githubusercontent.com/83463641/222902513-c5d98597-c17e-42b8-9bfd-eb7d3d07c73f.PNG">
 
@@ -83,6 +87,7 @@ Then check if the files have been excuted successfully, run ``` kubectl get depl
 
 <img width="612" alt="Capture 2" src="https://user-images.githubusercontent.com/83463641/223968969-a9989d86-be3f-4833-9b03-ca3d8fee3fab.PNG">
 
+14. Go back to GCP and Delete the Cluster to avoid billing!!!
 
 ## ERRORS & SOLUTIONS
 
