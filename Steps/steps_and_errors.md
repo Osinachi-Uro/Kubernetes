@@ -76,7 +76,7 @@ Image successfully created in Docker Hub
 
 <img width="563" alt="Capture 3" src="https://user-images.githubusercontent.com/83463641/223966636-0bd6bc70-d5f3-4b54-91d1-c515ba74cdf5.PNG">
 
-12. Instruct Kubernetes to create each of the files by running the following commands: ``` kubectl create -f deployment.yml ``` and ``` kubectl create -f service.yml ```
+12. Instruct Kubernetes to create each of the files by running the following commands: ``` kubectl create -f deployment.yml ``` and ``` kubectl create -f service.yml ``` . To create all the manifests in a particular folder without specifying a particular file name use : ``` kubectl create -f . ```
 
 Then check if the files have been excuted successfully, run ``` kubectl get deployments,svc ```
 
