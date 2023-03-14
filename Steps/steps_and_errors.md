@@ -106,6 +106,17 @@ Open /etc/resolv.conf, ```sudo nano /etc/resolv.conf```  Then replace the IP add
 Systemd is typically not installed on most docker images by default. So, instead of using systemd, use service. So, replace the systemctl command with 
 ``` service nginx restart ```
 
+## Notes
+
+* To delete an existing deployment
+
+First get a list of the existing  deployments:
+```
+kubectl get deploy
+```
+Then delete the depoyment:
+```
+kubectl delete deploy <deployement name>
 
 ### Helpful Links:
 
