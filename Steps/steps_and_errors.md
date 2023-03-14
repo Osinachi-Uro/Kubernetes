@@ -118,6 +118,11 @@ Then delete the depoyment:
 ```
 kubectl delete deploy <deployement name>
 
+* To list all pods in ps output format with more information (such as node name ans status) run:
+```
+kubectl get pods -o wide
+```
+
 ### Helpful Links:
 
 https://www.baeldung.com/linux/nginx-docker-container
